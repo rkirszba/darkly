@@ -17,6 +17,6 @@
 
 ## Some ways to avoid it
 
-* don't think that a user won't see an element in a form only because it is of `hidden` type, as he can see it by reading the `html` code
+* don't think that a user won't see an element in a form only because it is of `hidden` type, as he can see it by reading the HTML code
 * don't trust any element of a request as the user can modify them
 * in this particular case, e-mail address should for instance have been hardcoded directly in the backend part of the website

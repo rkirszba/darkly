@@ -28,7 +28,7 @@ Content-Type: image/jpeg
 
 ## Some ways to avoid it
 
-* do not only trust the request body as it can be modified by the attacker
+* do not trust the request body as it can be modified by the attacker
 * list allowed extensions (and be careful with all the techniques intented at bypassing it)
 * validate the file type
 
