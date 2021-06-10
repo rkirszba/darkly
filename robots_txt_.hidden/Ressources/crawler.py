@@ -1,8 +1,9 @@
+import sys
 import asyncio
 import aiohttp
 import re
 
-BASE_URL = 'http://192.168.1.47/.hidden/'
+BASE_URL = ''
 LINK_REGEX = r'href=[\'"]?([^\'" >]+)'
 
 async def get_readme(session, url):
@@ -48,4 +49,5 @@ async def main():
 		await explore_links(session, [BASE_URL])
 
 if __name__ == '__main__':
+	BASE_URL = sys.argv[1] + '.hidden/'
 	asyncio.run(main())

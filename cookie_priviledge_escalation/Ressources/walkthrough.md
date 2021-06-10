@@ -1,6 +1,6 @@
 # Cookie privilege escalation
 
-## Definition
+## What is it ?
 
 Cookies can be used to define roles, or access rights.
 As a user, it is possible to modify the value of a cookie field in order to escalate privilege.

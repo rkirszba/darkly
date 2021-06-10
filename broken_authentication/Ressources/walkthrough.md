@@ -1,6 +1,6 @@
 # Broken Authentication
 
-## Definition
+## What is it ?
 
 Listed among the OWASP top 10 Web Application Security Risks, Broken Authentication allows "attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities temporarily or permanently" (OWASP)
 

@@ -34,5 +34,5 @@ The stored XSS occurs when the application stores a user input and further refle
 
 * never trust the user inputs : validate / filter / sanitize the data sent to the site:
 	* generally escape untrusted data depending on the HTML context: use an ""allow list" model, that denies everything that is not specifically allowed" (OWASP)
-	* in our example check if a protocole like `data` or `javascript` is used
+	* in our example, you could escape every `<` or `>` characters, or remove what stands in between
 * encode data on output: for example, in HTML, `<` converts to `&lt;`

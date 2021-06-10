@@ -2,7 +2,7 @@
 
 ## What is it ?
 
-Liste among the OWASP top 10 Web Application Security, Cross Site Scripting (XSS) "occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript" (OWASP).
+Liste among the OWASP top 10 Web Application Security Risks, Cross Site Scripting (XSS) "occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript" (OWASP).
 
 There are three main kind of XSS:
 	* stored XSS

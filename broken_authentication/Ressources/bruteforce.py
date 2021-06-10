@@ -1,8 +1,9 @@
+import sys
 import asyncio
 import aiohttp
 import time
 
-BASE_URL = 'http://192.168.1.47/'
+BASE_URL = ''
 FILE_NAME = 'passwords.txt'
 
 async def get_result(session, password):
@@ -31,4 +32,5 @@ async def main():
 		await asyncio.gather(*tasks)
 
 if __name__ == '__main__':
+	BASE_URL = sys.argv[1]
 	asyncio.run(main())
